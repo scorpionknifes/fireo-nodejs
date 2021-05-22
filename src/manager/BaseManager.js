@@ -48,7 +48,7 @@ class BaseManager {
    * @param {DocumentReference} docRef - Firestore document reference
    */
   __extractKeyFromDocRef(docRef) {
-    return docRef._path.segments.join("/");
+    return docRef._path ? docRef._path.segments.join("/") : docRef.path;
   }
 }
 
