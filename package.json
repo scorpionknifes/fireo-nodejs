@@ -1,7 +1,7 @@
 {
-  "name": "fireo",
+  "name": "@scorpionknifes/fireo",
   "version": "1.0.3",
-  "description": "Google Cloud Firestore modern and simplest convenient ORM package in NodeJs. FireO is specifically designed for the Google's Firestore",
+  "description": "Fork of Fireo, Google Cloud Firestore modern and simplest convenient ORM package in NodeJs. FireO is specifically designed for the Google's Firestore",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/**/*test.js --timeout 15000"

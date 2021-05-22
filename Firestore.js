@@ -1,5 +1,3 @@
-const { Firestore: CloudFirestore } = require("@google-cloud/firestore");
-
 /**
  * Create Firestore connection
  */
@@ -69,6 +67,13 @@ class Firestore {
     }
   ) {
     this.connection = new CloudFirestore(settings);
+  }
+
+  /**
+   * Set Firestore connection
+   */
+  set(connection) {
+    this.connection = connection;
   }
 
   /**

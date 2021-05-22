@@ -13,6 +13,8 @@
     <br><br><br>
 </p>
 
+### Fork of Fireo with Firestore exposed for mocking
+
 ## Available in other language
 
 1. FireO is available also in `python` [FireO Python](https://github.com/octabytes/FireO)
